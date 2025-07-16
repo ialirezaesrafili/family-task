@@ -1,12 +1,8 @@
 import { Router } from "express";
-
+import authController from "../controllers/auth.controller.js";
 
 const router = Router();
 
-router.post('/checking', (req, res) => {
-    res.status(200).json({
-        message: "successfully reterive",
-    })
-});
+router.post('/register', authController.register);
 
 export default router;
