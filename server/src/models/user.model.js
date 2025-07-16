@@ -68,7 +68,6 @@ const UserSchema = new Schema({
         type: Types.ObjectId,
         ref: "Token",
         required: false,
-        default: ""
     }
 }, {
     timestamps: true

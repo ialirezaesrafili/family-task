@@ -1,6 +1,6 @@
 import chalk from "chalk";
 import bcrypt from "bcryptjs";
-import { userModel } from "../models/user.model";
+import { userModel } from "../models/user.model.js";
 
 class AuthService {
     #userModel;
