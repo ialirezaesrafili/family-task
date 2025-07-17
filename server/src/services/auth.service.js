@@ -38,6 +38,10 @@ class AuthService {
         }
     }
 
+    async loginUser(userData) {
+        
+    }
+
     /* --- Private Methods --- */
     async hashingPassword(password) {
         return bcrypt.hash(password, 10);
