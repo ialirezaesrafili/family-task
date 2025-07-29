@@ -2,7 +2,7 @@
 import autoBind from "auto-bind";
 
 // import modules
-import authService from "../services/aut.service.js";
+import authService from "../services/auth.service.js";
 import { httpStatus } from "../utils/httpCode.utils.js";
 export class AuthController{
     #authService;

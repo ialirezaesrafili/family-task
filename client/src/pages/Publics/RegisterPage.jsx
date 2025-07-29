@@ -1,11 +1,25 @@
-import React from 'react'
 
-function RegisterPage() {
+import React from 'react';
+import styled from 'styled-components';
+
+const Continaer = styled.section`
+    background: #7e22ce;
+    padding: 5px 10px;
+    height: 100vh;
+    justify-content: center;
+    align-item: center;
+    
+`
+
+
+
+const RegisterPage = () => {
+  
   return (
-    <div>
-      Register Page
-    </div>
-  )
-}
+    <Continaer>
+      register page
+    </Continaer>
+  );
+};
 
-export default RegisterPage
+export default RegisterPage;
