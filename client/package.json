@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@esbuild/darwin-arm64": "^0.25.6",
+    "@rollup/rollup-darwin-arm64": "^4.46.2",
     "framer-motion": "^12.23.11",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
