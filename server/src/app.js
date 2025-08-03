@@ -112,7 +112,7 @@ export class Application {
             process.env.MONGO_DB_DEVELOPMENT : process.env.MONGO_DB_PRODUCTION;
        
 
-        await databaseConnection(conditionLink.toString());
+        await databaseConnection(conditionLink);
     }
 
     initializeSwagger() {
